@@ -3,7 +3,7 @@ katz_deli = []
 
 def line(queue)
   if queue.empty?
-    "The line is currently empty."
+    puts "The line is currently empty."
   else
     response = "The line is currently: "
     queue.each_with_index {|name,index| response << "#{index+1}. #{name} "}
@@ -25,3 +25,4 @@ def now_serving(katz_deli)
     katz_deli
   end
 end
+ka
