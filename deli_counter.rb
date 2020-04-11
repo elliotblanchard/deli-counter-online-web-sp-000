@@ -7,8 +7,7 @@ def line(queue)
   else
     response = "The line is currently: "
     queue.each_with_index {|name,index| response << "#{index+1}. #{name} "}
-    response.pop
-    puts response
+    puts response.chomp(' ')
   end
 end
 
