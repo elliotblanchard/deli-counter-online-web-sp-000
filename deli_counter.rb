@@ -6,7 +6,7 @@ def line(queue)
     "The line is currently empty."
   else
     response = "The line is currently: "
-    queue.each_with_index {|name,index| response << "#{index+1}.  #{name} "}
+    queue.each_with_index {|name,index| response << "#{index+1}.  #{name}"}
     puts response
   end
 end
