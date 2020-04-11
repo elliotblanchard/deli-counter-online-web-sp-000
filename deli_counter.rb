@@ -2,7 +2,7 @@
 katz_deli = []
 
 def line(queue)
-  if (queue.size == 1) && (queue[0] != "")
+  if queue.empty?
     "The line is currently empty."
   else
     response = "The line is currently: "
