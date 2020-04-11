@@ -25,4 +25,3 @@ def now_serving(katz_deli)
     katz_deli
   end
 end
-ka
